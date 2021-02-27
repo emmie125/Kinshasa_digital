@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('/font/webKitMontserat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/webKitMontserat/montserrat-regular-webfont.woff') format('woff'),
+         url('/font/webKitMontserat/montserrat-regular-webfont.ttf') format('truetype'),
+         url('/font/webKitMontserat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/font/webkit-Roboto/roboto-regular-webfont.eot');
+    src: url('/font/webkit-Roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/webkit-Roboto/roboto-regular-webfont.woff') format('woff'),
+         url('/font/webkit-Roboto/roboto-regular-webfont.ttf') format('truetype'),
+         url('/font/webkit-Roboto/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* 
+le code css de header
+*/
+body{
+    width: 100%;
+    /* height:100%; */
+   
+}
+.principal
+{
+    display: flex;
+    flex-direction: column;
+  }
+
+*{
+    margin: 0 0;
+}
+
+header
+{
+    
+background-color:#d92950;
+   width: 100%;
+   height: 84px; 
+}
+
+nav{
+
+    position: fixed;
+    z-index: 1000;
+    background-color:#d92950;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 30px;
+    width: 100%;
+    height: 84px; 
+  
+}
+img{
+    width: 100px;
+    height: 58px;
+    opacity: 1;
+}
+.entete{
+    width: 500px;
+    height: 24px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px 15%;
+    margin-top: 50% 10%;
+    list-style: none;
+}
+
+.heada
+{
+    text-decoration:none;
+    font-size: 14px;
+    font-family: 'robotoregular' sans-serif;
+    color: white;
+    font-weight: 600;  
+}
+a:hover
+{
+    text-decoration:#FF046b;
+}
+
+/* 
+le code css au niveau 
+du deuxième div c'est à dire
+la section
+*/
+
+/* le code css 
+au niveau de 
+la première section
+*/
+
+#section1
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('images/hero-background.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 9%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+
+
+}
+.section1_images
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 95%;
+    height: 75%;
+
+}
+.section1-rdv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 5%;
+    
+}
+.section1-rdv> a
+{
+    text-decoration: none;
+    border: 2px solid white;
+    color: black;
+    font-size: 25px;
+    color: #FF046b;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 30px;   
+
+}
+.section1-rdv> a:hover{
+    background-color: transparent;
+    color: white;
+    
+}
+.section1-titre
+{
+    width: 1013;
+    height: 258;
+}
+.section1-titreinfo{
+    font-family:'montserratregular' sans-serif;
+    font-size: 65px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.section1-images-traitement{
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+}
+
+#qualifi
+{
+    color: #ffd64e;
+    font-family:'montserratregular' sans-serif;
+
+}
+.section1-para{
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    line-height: 30px;
+}
+
+/* 
+le style css qui suit est 
+la représentation 
+de la section 
+*/
+.section2{
+
+    display: flex;
+    height: 110vh;
+    padding-top: 5%;
+    background-color: #F1F0F3;
+}
+.section2-images{
+    width: 45%;
+    position: relative; 
+   
+}
+.section2-images1{
+    position: absolute;
+    left: -60px;
+    width: 85%;
+    height: 35%;
+    border-radius: 30px;
+}
+.section2-images2{
+    position: absolute;
+    width: 55%;
+    height: 30%;
+    border-radius: 15px;
+    margin: 20% 0% 0% 40%;
+
+}
+.section2-illustration{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-left:5%;
+    
+   
+}
+.section2-illustration>h1{
+    font-size: 43px;
+    color: #424345;
+    margin-bottom: 4%;
+    font-family: 'montserratregular' sans-serif;
+
+}
+.section2-alignement{
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 0%;
+    text-align: center;
+}
+.section2-alignement-para{
+
+    color: #424345;
+    font-size: 18px;  
+    font-weight: bold;
+    font-family: 'montserratregular' sans-serif;
+    margin-top: 7%;
+}
+.section2-alignement1:nth-child(2){
+    padding-right: auto;
+}
+.section2-alignement1>img
+{
+    width: 50px;
+    height: 64px;
+}
+.section2-alignement2{
+    margin-left: 8%;
+}
+.section2-alignement2>img{
+    width: 50px;
+    height: 64px;
+}
+.section2-alignement img
+{
+    padding-bottom:10%;
+    border-bottom: 2px solid #dc3545;
+}
+
+/* 
+le code css de la troisième section
+ */
+.section3
+{
+    height: 50vh;
+    background-color: #d92950;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5% 0%;
+}
+.section3>h1{
+    font-family: 'montserratregular' sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+.section3-images{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.section3-images>div>img{
+    width: 250px;
+    height: 100px;
+}
