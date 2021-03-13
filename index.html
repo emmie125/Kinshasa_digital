@@ -1,110 +1,826 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,200;1,700&family=Roboto&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,200;1,700&family=Roboto&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet" />
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css" />
     <title>Kinshasa digital</title>
 </head>
+
 <body>
     <div class="principal">
         <header>
             <nav>
                 <a href="https://kinshasadigital.com">
-                <img src="images/logo_white.png" alt="logo" id="imageHeader">
+                    <img src="images/logo_white.png" alt="logo" id="imageHeader" />
                 </a>
                 <div class="entete">
                     <ul>
                         <li><a href="index.html" class="heada">Accueil</a></li>
                         <li><a href="#" class="heada">Academy</a></li>
-                        <li><a href="#"class="heada">Emploi</a></li>
-                        <li><a href="#"class="heada">Contact</a></li>
+                        <li><a href="emploi.html" class="heada">Emploi</a></li>
+                        <li><a href="#" class="heada">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-            <!--la deuxième section-->
+        <!--la deuxième partie-->
         <div class="section">
             <section id="section1">
-                    <div class="section1-titre">
-                         <h1 class="section1-titreinfo">BESOIN DE <br>DÉVELOPPEURS<br> <span id="qualifi">&lt;QUALIFIÉS&gt;?</span></h1>
-                    </div>
-                    <div class="section1-rdv">
-                        <a href="tel:+">Planifier un appel</a>
-                        <a href="tel:+">Demander un avis</a>
-                    </div>
-                    <div >
-                        <p class="section1-para">
-                            Des développeurs expérimentés prêt à rejoindre votre équipe 
-                            en full remote et avec les <br>compétences dont vous avez besoin.   
-                        </p>
-                    </div>
-                    <div class="section1_images">
-                        <img src="images/technos/nodejs.png" alt="photo de node js" class="section1-images-traitement">
-                        <img src="images/technos/react.png" alt="photo de react" class="section1-images-traitement">
-                        <img src="images/technos/vuejs.png" alt="photo de vuejs" class="section1-images-traitement">
-                        <img src="images/technos/laravel.png" alt="photo de laravel" class="section1-images-traitement">
-                        <img src="images/technos/mysql.png" alt="photo de mysql" class="section1-images-traitement">
-                        <img src="images/technos/mongodb.png" alt="photo de mongodb" class="section1-images-traitement">
-                        <img src="images/technos/neo4j.png" alt="photo de neo4j" class="section1-images-traitement">
-                        <img src="images/technos/graphql.png" alt="photo de graphql" class="section1-images-traitement">
-                    </div>
+                <div class="section1-titre">
+                    <h1 class="section1-titreinfo">
+                        BESOIN DE <br />DÉVELOPPEURS<br />
+                        <span id="qualifi">&lt; QUALIFIÉS &gt; ?</span>
+                    </h1>
+                </div>
+                <div class="section1-rdv">
+                    <a href="tel:+">Planifier un appel</a>
+                    <a href="tel:+">Demander un avis</a>
+                </div>
+                <div>
+                    <p class="section1-para">
+                        Des développeurs expérimentés prêt à rejoindre votre équipe en
+                        full remote et avec les <br />compétences dont vous avez besoin.
+                    </p>
+                </div>
+                <div class="section1_images">
+                    <img src="images/technos/nodejs.png" alt="photo de node js" class="section1-images-traitement" />
+                    <img src="images/technos/react.png" alt="photo de react" class="section1-images-traitement" />
+                    <img src="images/technos/vuejs.png" alt="photo de vuejs" class="section1-images-traitement" />
+                    <img src="images/technos/laravel.png" alt="photo de laravel" class="section1-images-traitement" />
+                    <img src="images/technos/mysql.png" alt="photo de mysql" class="section1-images-traitement" />
+                    <img src="images/technos/mongodb.png" alt="photo de mongodb" class="section1-images-traitement" />
+                    <img src="images/technos/neo4j.png" alt="photo de neo4j" class="section1-images-traitement" />
+                    <img src="images/technos/graphql.png" alt="photo de graphql" class="section1-images-traitement" />
+                </div>
             </section>
             <section class="section2">
                 <div class="section2-images">
-                    <img src="images/illustrations/texaf_campus.jpg" alt="" class="section2-images1">
-                    <img src="images/illustrations/kda_cohorte_2020.jpg" alt=""class="section2-images2">
+                    <img src="images/illustrations/texaf_campus.jpg" alt="" class="section2-images1" />
+                    <img src="images/illustrations/kda_cohorte_2020.jpg" alt="" class="section2-images2" />
                 </div>
                 <div class="section2-illustration">
                     <h1>
-                        Des développeurs &lt;qualifiés&gt;et
-                        prêts à intégrer vos équipes en
-                        remote !
+                        Des développeurs &lt;qualifiés&gt;et prêts à intégrer vos équipes
+                        en remote !
                     </h1>
                     <div class="section2-alignement">
-                       <div class="section2-alignement1">
-
-                            <img src="images/illustrations/paper.svg" alt="illustration d'un papier">
-                            <p class="section2-alignement-para">Des développeurs qualifiés</p>
-                       
+                        <div class="section2-alignement1">
+                            <img src="images/illustrations/paper.svg" alt="illustration d'un papier" />
+                            <p class="section2-alignement-para">
+                                Des développeurs qualifiés
+                            </p>
                         </div>
                         <div class="section2-alignement1">
-                            <img src="images/illustrations/cup.svg" alt="illustration d'une coupe">
-                             <p class="section2-alignement-para">Des prix compétitifs</p>
+                            <img src="images/illustrations/cup.svg" alt="" />
+                            <p class="section2-alignement-para">Des prix compétitifs</p>
                         </div>
                     </div>
                     <div class="section2-alignement">
                         <div class="section2-alignement2">
-                            <img src="images/illustrations/chat.svg" alt="illustration d'une messagerie">
-                            <p class="section2-alignement-para">Le français est la langue<br> maternelle</p>
+                            <img src="images/illustrations/chat.svg" alt="illustration d'une messagerie" />
+                            <p class="section2-alignement-para">
+                                Le français est la langue<br />
+                                maternelle
+                            </p>
                         </div>
                         <div class="section2-alignement2">
-                            <img src="images/illustrations/earth.svg" alt="illustration d'une terre">
-                            <p class="section2-alignement-para">Sur le même fuseau horaire</p>
+                            <img src="images/illustrations/earth.svg" alt="illustration d'une terre" />
+                            <p class="section2-alignement-para">
+                                Sur le même fuseau horaire
+                            </p>
                         </div>
                     </div>
                 </div>
-
             </section>
             <section class="section3">
-                <h1>
-                    Nous avons le plaisir de travailler avec
-
-                </h1>
+                <h1>Nous avons le plaisir de travailler avec</h1>
                 <div class="section3-images">
-                    <img src="images/partners/facebook-white.png" alt="images de facebook">
-                    <img src="images/partners/orange-white.png" alt="images du partenaire orange">
-                    <img src="images/partners/deloitte-white.png" alt="images du partenaire deloitte">
-                    <img src="images/partners/ey-white-2.png" alt="images du partenaire Ey">
-                    <img src="images/partners/gsma-white.png" alt="images du partenaire GSMA">
-                    <img src="images/partners/digitalafr-w.png" alt="images du partenaire digital africa">
-                    
+                    <img src="images/partners/facebook-white.png" alt="images de facebook" />
+                    <img src="images/partners/orange-white.png" alt="images du partenaire orange" />
+                    <img src="images/partners/deloitte-white.png" alt="images du partenaire deloitte" />
+                    <img src="images/partners/ey-white-2.png" alt="images du partenaire Ey" />
+                    <img src="images/partners/gsma-white.png" alt="images du partenaire GSMA" />
+                    <img src="images/partners/digitalafr-w.png" alt="images du partenaire digital africa" />
+                </div>
+            </section>
+            <section class="section4">
+                <h1>Nous accompagnons vos projets</h1>
+                <div class="section4-alignement">
+                    <div class="section4-alignement1">
+                        <h3>&gt; Réaliser votre projet</h3>
+                        <p>
+                            Engagez une équipe de développeurs de Kinshasa Digital à un prix
+                            fixe pour livrer un produit final.
+                        </p>
+                        <a href="#"> DEMARRER MAINTENANT </a>
+                    </div>
+                    <div class="section4-alignement2">
+                        <h3>&gt; Integrer votre équipe</h3>
+                        <p>
+                            Engagez un ou plusieurs développeurs de Kinshasa Digital à des
+                            prix compétitifs pour rejoindre votre équipe à distance.
+                        </p>
+                        <a href="#"> ENGAGER UN DEVELOPPEUR </a>
+                    </div>
                 </div>
             </section>
 
+            <section class="section5">
+                <h2>Ce que nous avons développé</h2>
+                <div class="section5-alignement">
+                    <div class="section5-alignement1">
+                        <div class="section5-alignement1-img">
+                            <img src="images/works/ADS.png" alt="image de ADS" />
+                        </div>
+                        <div class="section5-alignement1-client-form">
+                            <div class="section5-alignement1-client">
+                                <p>client:African digital story</p>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" focusable="false" width="20" height="20"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 64 64"
+                                        data-icon="emojione:flag-for-congo-kinshasa" data-inline="false" data-width="20"
+                                        data-height="20" class="iconify" style="transform: rotate(360deg)">
+                                        <g fill="#42ade2">
+                                            <path
+                                                d="M10.8 10.8C2.1 19.5-.1 32.2 4.1 43L43 4.1c-10.8-4.2-23.5-2-32.2 6.7z">
+                                            </path>
+                                            <path
+                                                d="M53.2 53.2c8.7-8.7 10.9-21.4 6.7-32.2L21 59.9c10.8 4.2 23.5 2 32.2-6.7">
+                                            </path>
+                                        </g>
+                                        <path
+                                            d="M53.2 10.8c-2-2-4.1-3.6-6.4-4.9L5.9 46.8c1.3 2.3 2.9 4.5 4.9 6.4c2 2 4.1 3.6 6.4 4.9l40.9-40.9c-1.3-2.3-2.9-4.5-4.9-6.4"
+                                            fill="#c94747"></path>
+                                        <g fill="#ffce31">
+                                            <path
+                                                d="M17.2 58.1c.6.3 1.2.7 1.9 1c.6.3 1.3.6 2 .9l38.8-39c-.3-.7-.5-1.3-.9-2c-.3-.6-.6-1.2-1-1.9l-40.8 41">
+                                            </path>
+                                            <path
+                                                d="M44.9 4.9c-.7-.3-1.3-.6-2-.9L4.1 43c.3.7.5 1.3.9 2c.3.6.6 1.2 1 1.9l40.8-41c-.6-.4-1.2-.7-1.9-1">
+                                            </path>
+                                            <path
+                                                d="M18 19.2l3.7 2.8l-1.4-4.6l3.7-2.9h-4.6L18 10l-1.4 4.5H12l3.7 2.9l-1.4 4.6z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <p>RDC</p>
+                                </div>
+                            </div>
+                            <p>
+                                site:
+                                <a href="https://www.africandigitalstory.com/">https://www.africandigitalstory.com/</a>
+                            </p>
+                        </div>
+                        <div class="section5-alignement1-svg">
+                            <div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" focusable="false" width="1em" height="1em"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="bx:bxl-react"
+                                        data-inline="false" class="iconify" style="transform: rotate(360deg)">
+                                        <circle cx="12" cy="11.245" r="1.785" fill="currentColor"></circle>
+                                        <path
+                                            d="M7.002 14.794l-.395-.101c-2.934-.741-4.617-2.001-4.617-3.452c0-1.452 1.684-2.711 4.617-3.452l.395-.1l.111.391a19.507 19.507 0 0 0 1.136 2.983l.085.178l-.085.178c-.46.963-.841 1.961-1.136 2.985l-.111.39zm-.577-6.095c-2.229.628-3.598 1.586-3.598 2.542c0 .954 1.368 1.913 3.598 2.54c.273-.868.603-1.717.985-2.54a20.356 20.356 0 0 1-.985-2.542zm10.572 6.095l-.11-.392a19.628 19.628 0 0 0-1.137-2.984l-.085-.177l.085-.179c.46-.961.839-1.96 1.137-2.984l.11-.39l.395.1c2.935.741 4.617 2 4.617 3.453c0 1.452-1.683 2.711-4.617 3.452l-.395.101zm-.41-3.553c.4.866.733 1.718.987 2.54c2.23-.627 3.599-1.586 3.599-2.54c0-.956-1.368-1.913-3.599-2.542a20.683 20.683 0 0 1-.987 2.542z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M6.419 8.695l-.11-.39c-.826-2.908-.576-4.991.687-5.717c1.235-.715 3.222.13 5.303 2.265l.284.292l-.284.291a19.718 19.718 0 0 0-2.02 2.474l-.113.162l-.196.016a19.646 19.646 0 0 0-3.157.509l-.394.098zm1.582-5.529c-.224 0-.422.049-.589.145c-.828.477-.974 2.138-.404 4.38c.891-.197 1.79-.338 2.696-.417a21.058 21.058 0 0 1 1.713-2.123c-1.303-1.267-2.533-1.985-3.416-1.985zm7.997 16.984c-1.188 0-2.714-.896-4.298-2.522l-.283-.291l.283-.29a19.827 19.827 0 0 0 2.021-2.477l.112-.16l.194-.019a19.473 19.473 0 0 0 3.158-.507l.395-.1l.111.391c.822 2.906.573 4.992-.688 5.718a1.978 1.978 0 0 1-1.005.257zm-3.415-2.82c1.302 1.267 2.533 1.986 3.415 1.986c.225 0 .423-.05.589-.145c.829-.478.976-2.142.404-4.384c-.89.198-1.79.34-2.698.419a20.526 20.526 0 0 1-1.71 2.124z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M17.58 8.695l-.395-.099a19.477 19.477 0 0 0-3.158-.509l-.194-.017l-.112-.162A19.551 19.551 0 0 0 11.7 5.434l-.283-.291l.283-.29c2.08-2.134 4.066-2.979 5.303-2.265c1.262.727 1.513 2.81.688 5.717l-.111.39zm-3.287-1.421c.954.085 1.858.228 2.698.417c.571-2.242.425-3.903-.404-4.381c-.824-.477-2.375.253-4.004 1.841c.616.67 1.188 1.378 1.71 2.123zM8.001 20.15a1.983 1.983 0 0 1-1.005-.257c-1.263-.726-1.513-2.811-.688-5.718l.108-.391l.395.1c.964.243 2.026.414 3.158.507l.194.019l.113.16c.604.878 1.28 1.707 2.02 2.477l.284.29l-.284.291c-1.583 1.627-3.109 2.522-4.295 2.522zm-.993-5.362c-.57 2.242-.424 3.906.404 4.384c.825.47 2.371-.255 4.005-1.842a21.17 21.17 0 0 1-1.713-2.123a20.692 20.692 0 0 1-2.696-.419z"
+                                            fill="currentColor"></path>
+                                        <path
+                                            d="M12 15.313c-.687 0-1.392-.029-2.1-.088l-.196-.017l-.113-.162a25.697 25.697 0 0 1-1.126-1.769a26.028 26.028 0 0 1-.971-1.859l-.084-.177l.084-.179c.299-.632.622-1.252.971-1.858c.347-.596.726-1.192 1.126-1.77l.113-.16l.196-.018a25.148 25.148 0 0 1 4.198 0l.194.019l.113.16a25.136 25.136 0 0 1 2.1 3.628l.083.179l-.083.177a24.742 24.742 0 0 1-2.1 3.628l-.113.162l-.194.017c-.706.057-1.412.087-2.098.087zm-1.834-.904c1.235.093 2.433.093 3.667 0a24.469 24.469 0 0 0 1.832-3.168a23.916 23.916 0 0 0-1.832-3.168a23.877 23.877 0 0 0-3.667 0a23.743 23.743 0 0 0-1.832 3.168a24.82 24.82 0 0 0 1.832 3.168z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                <p>React Native</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section5-alignement1">
+                        <div class="section5-alignement1-img">
+                            <img src="images/works/covid-dashboard.png" alt="image de ADS" />
+                        </div>
+                        <div class="section5-alignement1-client-form">
+                            <div class="section5-alignement1-client">
+                                <p>client:Ministre de la santé RDC</p>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" focusable="false" width="20" height="20"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 64 64"
+                                        data-icon="emojione:flag-for-congo-kinshasa" data-inline="false" data-width="20"
+                                        data-height="20" class="iconify" style="transform: rotate(360deg)">
+                                        <g fill="#42ade2">
+                                            <path
+                                                d="M10.8 10.8C2.1 19.5-.1 32.2 4.1 43L43 4.1c-10.8-4.2-23.5-2-32.2 6.7z">
+                                            </path>
+                                            <path
+                                                d="M53.2 53.2c8.7-8.7 10.9-21.4 6.7-32.2L21 59.9c10.8 4.2 23.5 2 32.2-6.7">
+                                            </path>
+                                        </g>
+                                        <path
+                                            d="M53.2 10.8c-2-2-4.1-3.6-6.4-4.9L5.9 46.8c1.3 2.3 2.9 4.5 4.9 6.4c2 2 4.1 3.6 6.4 4.9l40.9-40.9c-1.3-2.3-2.9-4.5-4.9-6.4"
+                                            fill="#c94747"></path>
+                                        <g fill="#ffce31">
+                                            <path
+                                                d="M17.2 58.1c.6.3 1.2.7 1.9 1c.6.3 1.3.6 2 .9l38.8-39c-.3-.7-.5-1.3-.9-2c-.3-.6-.6-1.2-1-1.9l-40.8 41">
+                                            </path>
+                                            <path
+                                                d="M44.9 4.9c-.7-.3-1.3-.6-2-.9L4.1 43c.3.7.5 1.3.9 2c.3.6.6 1.2 1 1.9l40.8-41c-.6-.4-1.2-.7-1.9-1">
+                                            </path>
+                                            <path
+                                                d="M18 19.2l3.7 2.8l-1.4-4.6l3.7-2.9h-4.6L18 10l-1.4 4.5H12l3.7 2.9l-1.4 4.6z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <p>RDC</p>
+                                </div>
+                            </div>
+                            <p>
+                                site:
+                                <a href="https://resilient.digital-africa.co/">https://resilient.digital-africa.co/</a>
+                            </p>
+                        </div>
+                        <div class="section5-alignement1-svg">
+                            <div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" focusable="false" width="1em" height="1em"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="bx:bxl-vuejs"
+                                        data-inline="false" class="iconify" style="transform: rotate(360deg)">
+                                        <path d="M12 12.765l5.592-9.437h-3.276L12 7.33v.002L9.688 3.328h-3.28z"
+                                            fill="currentColor"></path>
+                                        <path d="M18.461 3.332L12 14.235L5.539 3.332H1.992L12 20.672l10.008-17.34z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                <p>vuejs</p>
+                            </div>
+                            <div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" focusable="false" width="1em" height="1em"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="la:laravel"
+                                        data-inline="false" class="iconify" style="transform: rotate(360deg)">
+                                        <path
+                                            d="M7.557 5.006c-.657.028-5.668.453-6.024.486c-.356.03-.748.194-.392 1.057S7.186 19.95 7.346 20.316c.159.364.572.96 1.537.72c.989-.245 4.42-1.162 6.295-1.665c.989 1.836 3.01 5.558 3.384 6.09c.497.714.844.592 1.608.353c.6-.187 9.356-3.407 9.75-3.57c.394-.168.636-.282.37-.69c-.198-.296-2.509-3.461-3.718-5.12c.83-.225 3.778-1.027 4.092-1.118c.37-.097.42-.277.219-.507c-.197-.23-2.943-3.744-3.426-4.338c-.483-.594-.723-.49-1.018-.448c-.3.043-3.772.642-4.175.71c-.403.071-.657.234-.409.59c.22.315 2.504 3.63 3.01 4.359l-9.08 2.222L8.561 5.561c-.286-.436-.348-.59-1.004-.555zm-.114.857c.17-.01.15.028.211.133c0 0 6.666 11.765 6.778 11.97c.122.207.053.27-.055.294c-.108.024-5.195 1.269-5.467 1.332c-.272.062-.272.033-.305-.063c-.033-.096-6.044-12.784-6.128-12.943c-.084-.158-.08-.283 0-.283s4.802-.43 4.966-.44zm19.328 4.983c.068.015.139.066.223.183c.17.235 2.466 3.211 2.555 3.326c.084.111-.067.179-.264.227c-.197.043-3.45.867-3.45.867l-2.657-3.728c-.075-.11-.136-.217.052-.24c.187-.025 3.206-.587 3.342-.616c.068-.017.132-.035.2-.02zm-1.244 5.771c.063.007.116.052.186.164c.137.231 2.926 4.1 3.006 4.23c.08.13.162.216-.096.307c-.253.096-8.609 2.977-8.768 3.05c-.164.071-.292.094-.498-.218c-.206-.312-2.923-5.119-2.923-5.119l8.847-2.353c.11-.036.184-.068.246-.06z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                <p>laravel</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section5-alignement1">
+                        <div class="section5-alignement1-img">
+                            <img src="images/works/tandem.png" alt="image de ADS" />
+                        </div>
+                        <div class="section5-alignement1-client-form">
+                            <div class="section5-alignement1-client">
+                                <p>client:Tandem Advertising</p>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" focusable="false" width="20" height="20"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 64 64"
+                                        data-icon="emojione:flag-for-switzerland" data-inline="false" data-width="20"
+                                        data-height="20" class="iconify" style="transform: rotate(360deg)">
+                                        <circle cx="32" cy="32" r="30" fill="#ed4c5c"></circle>
+                                        <path fill="#fff" d="M47 27H37V17H27v10H17v10h10v10h10V37h10z"></path>
+                                    </svg>
+                                    <p>Suisse</p>
+                                </div>
+                            </div>
+                            <p>
+                                site:
+                                <a href="https://www.tandemadvertising.com/">https://www.tandemadvertising.com/</a>
+                            </p>
+                        </div>
+                        <div class="section5-alignement1-svg">
+                            <div>
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        aria-hidden="true" focusable="false" width="1em" height="1em"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200"
+                                        data-icon="el:wordpress" data-inline="false" class="iconify"
+                                        style="transform: rotate(360deg)">
+                                        <path
+                                            d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                <p>wordpress-(custom-theme)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section6">
+                <h2>Notre expertise</h2>
+                <div class="section6-alignement">
+                    <div class="section6-alignement1">
+                        <div class="section6-alignement1-inter1">
+                            <h3>
+                                Hardskills
+                            </h3>
+                        </div>
+                        <table>
+
+                            <tbody>
+                                <tr>
+
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/html5 (copy).svg" alt="" />
+                                            <p>HTML</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img" id="css">
+                                            <img src="images/Fichiers_svg/svg/css.svg" alt="">
+                                            <p>
+                                                CSS
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/php.svg" alt="">
+                                            <p>
+                                                PHP
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/laravel.svg" alt="">
+                                            <p>
+                                                laravel
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/nodejs.svg" alt="image de node js">
+                                            <p>
+                                                Node.Js
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img" id="javascript">
+                                            <img src="images/Fichiers_svg/svg/javascript.svg" alt="image de javascript">
+                                            <p>
+                                                javascript
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/vuejs.svg" alt="image de vuejs">
+                                            <p>
+                                                vue.js
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/reactjs.svg" alt="image de react">
+                                            <p>
+                                                React
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/mysql.svg" alt="image de Mysql">
+                                            <p>
+                                                MySQL
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/mongodb.svg" alt="image de mongodb">
+                                            <p>
+                                                MongoDB
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/neo4j.svg" alt="image de neo4j">
+                                            <p>
+                                                neo4j
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="section6-alignement1-inter2-img">
+                                            <img src="images/Fichiers_svg/svg/graphql.svg" alt="image de graphql">
+                                            <p>
+                                                graphQl
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="section6-alignement2">
+                        <div class="section6-alignement2-inter">
+                            <h3>
+                                Soft Skills
+                            </h3>
+                        </div>
+                        <div class="section6-alignement2-inter1">
+                            <div class="section6-alignement2-inter2">
+                                <ol>
+                                    <li>Méthodologie Argile <p>(SCRUM)</p>
+                                    </li>
+                                    <li>Travail en équipe</li>
+                                    <li>Habitude de Télé-travail</li>
+                                    <li>Gestion du temps</li>
+                                    <li>Pair Programming</li>
+                                </ol>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section7">
+
+                <div class="section7-alignement1">
+                    <h2>
+                        Prêt ?
+                    </h2>
+                </div>
+                <div class="section7-alignement2">
+                    <div class="section7-alignement2-inter">
+                        <div class="section7-alignement2-inte1">
+                            <div class="section7-alignement2-inte-img">
+                                <img src="images/illustrations/call.png" alt="images d'un appel">
+                            </div>
+                            <p>
+                                Appel d'introduction
+                            </p>
+                            
+
+                        </div>
+                        <div class="section7-alignement2-inte2">
+                            <img src="images/illustrations/arrow.png" alt="images d'une flèche">  
+                        </div>
+                    </div>
+                    <div class="section7-alignement2-inter">
+                        <div class="section7-alignement2-inte1">
+                            <div class="user">
+                                <img src="images/illustrations/users.png" alt="images de groupe de travail" >
+                            </div>
+                            <p>
+                                Proposition de profils
+                            </p>
+                        </div>
+                        <div class="section7-alignement2-inte2">
+                            <img src="images/illustrations/arrow.png" alt="images d'une flèche">
+                        </div>
+                    </div>
+                    <div class="section7-alignement2-inter">
+                        <div class="section7-alignement2-inte1">
+                            <div class="section7-alignement2-inte-img">
+                                <img src="images/illustrations/call.png" alt="images d'un appel">
+                            </div>
+                            <p>
+                                Interviews vidéo
+                            </p>
+
+                        </div>
+                        <div class="section7-alignement2-inte2">
+                            <img src="images/illustrations/arrow.png" alt="images d'une flèche" id="fleche">
+                            
+                        </div>
+                    </div>
+                    <div class="section7-alignement2-inter">
+                        <div class="section7-alignement2-inte1">
+                            <div class="user-group">
+                                <img src="images/illustrations/user_group.png" alt="images d'un appel">
+
+                            </div>
+                            <p>
+                                Onboarding
+                            </p>
+
+                        </div>
+                        <div class="section7-alignement2-inte2">
+
+                        </div>
+                    </div>
+                </div>
+              <div class="section7-alignement3">
+                <a href="#">PLANNIFIER UN APPEL</a>
+              </div>
+            </section>
+            <section class="section8">
+                <div class="section8-alignement1">
+                   <div class="section8-alignement1-titre">
+                       <h2>
+                        Nous créons de l’ <span>emploi de qualité</span>  en République Démocratique du Congo
+                       </h2>
+                   </div>
+                   <div>
+                       <p>
+                        Nous sommes fiers de vous proposer un service de qualité qui permet de créer des emplois pour les talents de la RDC tout en offrant une formation 
+                        d’excellence à de nouveaux jeunes développeurs chaque année
+                       </p>
+                   </div>
+                   <div class="section8-alignement1-img">
+                       <img src="images/students.png" alt="images des étudiants de la KDA">
+                   </div>
+                </div>
+                <div class="section8-alignement2">
+                    <div class="section8-alignement2-inter1">
+                        <div class="section8-alignement2-app">
+                            <div>
+                                <img src="images/illustrations/salary.png" alt="image de l'argent">
+                            </div>
+                            <div>
+                                <h3>
+                                    Rémunération ultra compétitive
+                                </h3>
+                            </div>
+                            <div>
+                                <p>
+                                    Un salaire 5x supérieur au salaire moyen de la RDC.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section8-alignement2-app">
+                            <div>
+                                <img src="images/illustrations/working.png" alt="image d'une personne entrée de travailler">
+                            </div>
+                            <div>
+                                <h3>
+                                    Infrastructure pro
+                                </h3>
+                            </div>
+                            <div>
+                                <p>
+                                    Un environnement de travail de haute qualité avec connexion Internet haut débit et une cantine offerte.
+                                </p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="section8-alignement2-inter1">
+                        <div class="section8-alignement2-app">
+                            <div>
+                                <img src="images/illustrations/health.png" alt="image de la Couverture santé">
+                            </div>
+                            <div>
+                                <h3>
+                                    Couverture santé
+                                </h3>
+                            </div>
+                            <div>
+                                <p>
+                                    Une couverture santé pour le développeur et sa famille dans le meilleur hôpital de Kinshasa.    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section8-alignement2-app">
+                            <div>
+                                <img src="images/illustrations/training.png" alt="image de la formation continue">
+                            </div>
+                            <div>
+                                <h3>
+                                    Formation continue
+                                </h3>
+                            </div>
+                            <div>
+                                <p>
+                                    Via la KDA et des mentors de renommée mondiale de Facebook, Microsoft, Adobe & Google.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section9">
+                <h2>
+                    Kinshasa Digital dans les médias
+                </h2>
+                <div class="section9-alignement">
+                    <div>
+                        <img src="images/medias/jeuneafr.png" alt="image jeune afrique" id="jeuneafr">
+                    </div>
+                    <div>
+                        <img src="images/medias/detijd.png" alt="image de detijd" id="detijd">
+                    </div>
+                    <div>
+                        <img src="images/medias/frb.png" alt="image de frb" id="frb">
+                    </div>
+                    <div>
+                        <img src="images/medias/gsma.png" alt="image de gsma" id="gsma"> 
+                    </div>
+                    <div>
+                        <img src="images/medias/digitalafr.png" alt="image de digital afrique" id="digital">
+                    </div>
+                </div>
+            </section>
+            <section class="section10">
+                
+                    <h2>
+                        Ils nous soutiennent
+                    </h2>
+                    <div id="soutien">
+                    <div class="section10-alignement1">
+                        <div class="section10-alignement-inter">
+                            <div><img src="images/kda-avec-le-president-felix-antoine-tshisekedi.jpg" alt="kda-avec-le-president-felix-antoine-tshisekedi"></div>
+                            <p>Présentation au <span>Président Félix Antoine Tshisekedi </span> et soutien  de la Présidence.</p>
+                        </div>
+                        <div class="section10-alignement-inter">
+                            <div><img src="images/kda-avec-le-premier-ministre-belge.jpg" alt="kda-avec-le-premier-ministre-belge"></div> 
+                            <p>Visite du Premier Ministre Belge <span>Alexander De Croo</span> .</p>
+                        </div>
+                        <div class="section10-alignement-inter">
+                            <div><img src="images/kda-avec-l-ambassadeur-de-france.jpg" alt="kda-avec-l-ambassadeur-de-france"></div> 
+                            <p>Soutien de l'Ambassadeur de  France <span>François Pujolas</span> .</p>
+                        </div>
+                        <div class="section10-alignement-inter">
+                            <div><img src="images/kda-avec-facebook.jpg" alt="kda-avec-facebook.jpg"> </div>
+                            <p>Visite de <span> Aïda Ndiaye </span> de Facebook.</p>
+                        
+                        </div>
+
+                    </div>
+                    <div class="section10-alignement2">
+                        <div class="section10_tweet">
+                            <blockquote class="twitter-tweet"><p lang="nl" dir="ltr">🇧🇪🇨🇩Ochtendlijk bezoek aan nieuwe <a href="https://twitter.com/KinshasaDigital?ref_src=twsrc%5Etfw">@KinshasaDigital</a> Academy. <br><br>Hier ging vorige week eerste groep jongeren van start met intensieve coding opleiding. Digitale transformatie ook voor <a href="https://twitter.com/hashtag/DRC?src=hash&amp;ref_src=twsrc%5Etfw">#DRC</a> bron van kansen en groei. <a href="https://t.co/IFBla5uCpJ">pic.twitter.com/IFBla5uCpJ</a></p>&mdash; Alexander De Croo (@alexanderdecroo) <a href="https://twitter.com/alexanderdecroo/status/1225325626791530496?ref_src=twsrc%5Etfw">February 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="section10_tweet">
+                            <blockquote class="twitter-tweet"><p lang="fr" dir="ltr"><a href="https://twitter.com/hashtag/LaFranceenRDCongo?src=hash&amp;ref_src=twsrc%5Etfw">#LaFranceenRDCongo</a> <a href="https://twitter.com/hashtag/Kinshasa?src=hash&amp;ref_src=twsrc%5Etfw">#Kinshasa</a> <a href="https://twitter.com/hashtag/RDC?src=hash&amp;ref_src=twsrc%5Etfw">#RDC</a> <a href="https://twitter.com/hashtag/numerique?src=hash&amp;ref_src=twsrc%5Etfw">#numerique</a><br><br>Inauguration de la Kinshasa Digital Academy le 31/01/2020 par S.E.M. François Pujolas, ambassadeur de France en RDC.<a href="https://t.co/VGueahjduY">https://t.co/VGueahjduY</a> <a href="https://t.co/yPaUsGXPca">pic.twitter.com/yPaUsGXPca</a></p>&mdash; France en R.D.Congo (@AmbaFranceRDC) <a href="https://twitter.com/AmbaFranceRDC/status/1224272491503333378?ref_src=twsrc%5Etfw">February 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="section10_tweet">
+                            <blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Grâce à leur appui <a href="https://twitter.com/hashtag/num%C3%A9rique?src=hash&amp;ref_src=twsrc%5Etfw">#numérique</a>, ma collaboration avec <a href="https://twitter.com/KinshasaDigital?ref_src=twsrc%5Etfw">@KinshasaDigital</a> permettra aux populations en <a href="https://twitter.com/hashtag/danger?src=hash&amp;ref_src=twsrc%5Etfw">#danger</a> d&#39;alerter les autorités et aux <a href="https://twitter.com/hashtag/victimes?src=hash&amp;ref_src=twsrc%5Etfw">#victimes</a> de <a href="https://twitter.com/hashtag/VBG?src=hash&amp;ref_src=twsrc%5Etfw">#VBG</a> d&#39;être redirigées vers des structures d&#39;accompagnement appropriées. On pourra prévoir les vagues de <a href="https://twitter.com/hashtag/VBG?src=hash&amp;ref_src=twsrc%5Etfw">#VBG</a> et les contrecarrer <a href="https://t.co/G46BFg9d3n">pic.twitter.com/G46BFg9d3n</a></p>&mdash; Conseillère Spéciale Chantal Yelu Mulop (@SpecialeYelu) <a href="https://twitter.com/SpecialeYelu/status/1289215838373974019?ref_src=twsrc%5Etfw">July 31, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="section10_tweet">
+                            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kinshasa is one of my favorite city in the word because it’s the place where people and organizations like <a href="https://twitter.com/KinshasaDigital?ref_src=twsrc%5Etfw">@KinshasaDigital</a> beat the wildest odds and make dreams come true. I was so honored to meet the futur leaders of the African tech industry at the Kinshasa Digital Academy <a href="https://t.co/3yZMAOiz6a">pic.twitter.com/3yZMAOiz6a</a></p>&mdash; Aïda Ndiaye (@andiaye_) <a href="https://twitter.com/andiaye_/status/1221417758736470016?ref_src=twsrc%5Etfw">January 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                </div>
+                </div>
+            </section>
+            <section class="section11">
+                <h2>Formulaire de contact</h2>
+                <p>
+                    Si vous souhaitez-vous préinscrire à la Kinshasa Digital Academy veuillez remplir le <a href="#">formulaire de préinscription</a> .
+                </p>
+                <form action="">
+                    <div class="section11-alg1">
+                        <div class="section11-alg-inter">
+                            <label for="titre">Quel titre vous decrit le mieux?</label>
+                            <select name="titre" id="">
+                                <option value="" ></option>
+                                <option value="">Consultant</option>
+                                <option value="">Entrepreneur</option>
+                                <option value="">Etudiant</option>
+                                <option value="">Représentant d'une Start-up</option>
+                                <option value="">Représentant d'une PME</option>
+                                <option value="">Représentant d'une Grande entreprise</option>
+                                <option value="">Représentant d'une OMG</option>
+                                <option value="">Autes</option>
+                            </select>
+                            <input type="text" placeholder="Prénom">
+                            <input type="text" placeholder="Nom">
+                            <input type="text" placeholder="Téléphone">
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <div class="section11-alg-inter">
+                            <label for="secteur">Secteur d'activité</label>
+                            <select name="secteur" id="">
+                                <option value="" ></option>
+                                <option value="">Agriculture et foresterie</option>
+                                <option value="">Aéroport</option>
+                                <option value="">Construction</option>
+                                <option value="">Centrées des données /IT</option>
+                                <option value="">Exportateur</option>
+                                <option value="">Education</option>
+                                <option value="">Gouvernement</option>
+                                <option value="">Services santés</option>
+                                <option value="">Hôpital</option>
+                                <option value="">Industrie de manufacturing</option>
+                                <option value="">Militaire/Défense</option>
+                                <option value="">Exploitation Minière</option>
+                                <option value="">Petrolière</option>
+                                <option value="">Location</option>
+                                <option value="">Supermarché / Centre Commercial</option>
+                                <option value="">Télécommunication</option>
+                                <option value="">Transport</option>
+                                <option value="">Traitement d'eau</option>
+                                <option value="">Autes</option>
+                            </select>
+                            <input type="text" placeholder="Nom de votre entreprise">
+                            <input type="text" placeholder="Site Web">
+                            <input type="text" placeholder="Ville">
+                    
+                        </div>
+                    </div>
+                    <div class="section11-alg2">
+                        <label for="type">
+                            Type de demande</label>
+                        <select name="type" id="">
+                            <option value="" ></option>
+                            <option value="">Développement:Site internet</option>
+                            <option value="">Développement:Site mobile</option>
+                            <option value="">Développement:Site de gestion</option>
+                            <option value="">Développement:Autre demande ou autre besoin en technologie de l'information</option>
+                            <option value="">Evénement:Demande de partenariat</option>
+                            <option value="">Evénement:Autre question</option>
+                            <option value="">Kinshasa Digital Academy:Demande de partenariat</option>
+                            <option value="">Kinshasa Digital Academy:Demande de recrutement de nos apprenants</option>
+                            <option value="">Kinshasa Digital Academy:Demande de renseignement concernant le programme</option>
+                            <option value="">Kinshasa Digital Academy:Soumettre un projet à impact social</option>
+                            <option value="">Autres</option>
+                        </select>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Demande: merci d'indiquer le maximum de précision afin qu'on puisse vous donner une réponse complète">
+
+                        </textarea>
+                    </div>
+                    <div class="section11-alg3">
+                        <p>
+                            Dû à un nombre important de demandes, nous ne traiterons pas les messages concernant les inscriptions à KDA, inscrivez-vous à l’aide du 
+                            <a href="#">formulaire</a> . 
+                        </p>
+                        <p>
+                            Pour toute demande de devis, merci de nous donner le maximum de détails possible afin de nous aider à vous répondre le plus précisément possible
+                        </p>
+                        <div>
+                            <a href="#">Envoyer</a>
+                        </div>
+                    </div>
+                    
+                </form>
+            </section>
         </div>
+        <footer>
+            <div class="footer">
+                <p><strong>Kinshasa Digital</strong> <br></p>
+                <address>
+                    
+                    Texaf Digital Campus<br>
+                    Concession COTEX (Référence: en face de l’Ambassade de France)<br>
+                    N° 63 Avenue Colonel Mondjiba <br>
+                    Commune de Ngaliema - Kinshasa <br>
+                    République Démocratique du Congo <br>
+                </address>
+                <div class="contact">
+                    <a href="mailto:info@kinshasadigital.com">info@kinshasadigital.com</a>
+                    <a href="tel:+243891341236">+243891341236</a>
+                </div>
+                <div class="reseau">
+                    
+                    <a href="https://web.facebook.com/KinshasaDigital/?_rdc=1&_rdr"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/kinshasadigital"><i class="fab fa-twitter"></i></a>
+                    <a href="https://fr.fa-linkedin.com/company/Kinshasa-digital"><i class="fab fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+            <div class="footer1">
+                <p>
+                   Inscrivez-vous à notre<span class="news"> newsletter</span> pour vous tenir au courant de nos activités.
+                </p>
+                <div class="btn">
+                   <div class="btninput"> <input type="text" placeholder="Adresse E-mail"></div>
+                    
+                    <div class="btna"><a href="#">S'INSCRIRE</a></div>
+                </div>
+                <div class="mention">
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>
