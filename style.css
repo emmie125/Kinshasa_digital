@@ -1254,8 +1254,6 @@ footer strong{
     width: 100%;
     margin: 5% 0%;
     padding: 5% 0%;
-    
-    
 }
 .btn input{
     padding: 15px;
@@ -1264,7 +1262,7 @@ footer strong{
 }
 .btn a{
    
-    padding: 14.5px 25px;
+    padding: 15px 26px;
     background-color:#d92950;
     color: white;
     font-weight: 600;
@@ -1285,8 +1283,9 @@ footer strong{
 }
 .btna{
   margin-left: 6.5%;
-  height: auto;
-  margin-top: 3%;
+  margin-top: 2.6%;
+  width: auto;
+  
 }
 .footer1 p{
     font-size: 24px;
@@ -1329,12 +1328,12 @@ footer strong{
 
 .section-emploi .div-a{
     width: 100%;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .section-emploi h4{
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 }
 
 .section-emploi p{
