@@ -1255,15 +1255,12 @@ footer strong{
     margin: 5% 0%;
     padding: 5% 0%;
 }
-.btn input{
-    padding: 15px;
-    width: 100%;
-    outline: none;
-}
+
 .btn a{
    
     padding: 15px 26px;
     background-color:#d92950;
+    border: 2px solid #d92950;
     color: white;
     font-weight: 600;
     border-bottom-right-radius: 15px;
@@ -1271,22 +1268,19 @@ footer strong{
     font-family: 'Roboto',sans-serif;
    
 }
-.btninput{
+.btn input{
     width: 65%;
+    padding: 15px;
+    outline: none;
 }
 .footer1 span{
     font-weight: bold;
 }
 .btn a:hover{
     background-color: transparent;
-    border: 2px solid #d92950;
+   
 }
-.btna{
-  margin-left: 6.5%;
-  margin-top: 2.6%;
-  width: auto;
-  
-}
+
 .footer1 p{
     font-size: 24px;
     line-height: 30px;
@@ -1375,4 +1369,14 @@ footer strong{
     height: 20%;
     border:1px solid #F1F0F3;
     background-color: #F1F0F3;
+}
+/* le soulignement des boutons dans le site */
+.sourlignement::after{
+    display: inline-block;
+    width: 0;
+    background-color: #AE3757;
+    transition: width 0.3s;
+}
+.sourlignement::after:hover{
+    
 }
